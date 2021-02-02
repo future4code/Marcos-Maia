@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+   padding: 0;
+   text-decoration: none;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+body {
+    background-color:peachpuff;
+    color:brown;
+}
+.texto-claro {
+    color: brown;
+}
+.titulo{
+    color: brown;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: black;
+    padding-bottom: 3px;
+    background-image: url("./img/bgs/higis-ini.jpg");
+    background-position: center top;
+    box-shadow: brown;
+}
+.menu{
+    text-align: center;
+
+    margin-top: 10%;
+}
+.btn {
+    color: cornsilk;
+    background-color: chocolate;
+    text-decoration: none;
+    border-radius: 25px;
+    border:olivedrab;
+    border-width: medium;
+    padding: 1px 10px 5px 10px;
+    margin: 20px 10px;
+}
+
+.principal{
+
+    text-align: center;
+    margin: 5% 10% 5% 10%;
+}
+
+.rodape {
+    position:fixed;
+    bottom: 0;
+
+    background-color: black;
+    align-content: center;
+    text-align: center;
+    background-image: url("./img/bgs/higis-ini.jpg");
+    background-position: center center;
+
+}
+
+.msg {
+    margin: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.redes {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.icon {
+    width: 4%;
+    margin: 0% 10% 2% 10%;
+    filter: invert(100%);
+}
