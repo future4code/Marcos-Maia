@@ -37,7 +37,7 @@ div>p:first-child {
 
 
 div img {
-    background: black;
+    /* background: black; */
 }
 
 .botao-amarelo {
@@ -62,9 +62,6 @@ div img {
     text-align: center;
 }
 
-.icone {
-    height: 15px;
-}
 
 
 /** 
@@ -134,8 +131,23 @@ td button {
 }
 
 .container-do-search {
+    display: block;
+    margin: auto;
     margin-top: 20px;
     height: 100px;
+    vertical-align:middle
+}
+
+/* body > div.container-do-search > div{
+    display: inline-block;
+
+} */
+
+.icone {
+    margin-top: 20px;
+
+    height: 25px; 
+    width: 30px; 
 }
 
 
