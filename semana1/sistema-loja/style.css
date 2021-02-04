@@ -35,7 +35,7 @@ body {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     /* border: 1px brown solid; */
-
+    box-shadow: 3px 3px 30px rgba(0,0,0,0.3);
 }
 .cabecalho-principal{
     padding: 30px;
@@ -90,6 +90,7 @@ table td {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     box-sizing: border-box;
+    box-shadow: -5px -5px 30px rgba(0,0,0,0.3);
 
 }
 
