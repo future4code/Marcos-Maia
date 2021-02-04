@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    border: 0;
 }
 
 h2 {
@@ -20,6 +21,8 @@ h2 {
 input {
     height: 20px;
     width: 500px;
+    border-style: solid;
+    border-bottom: 3px solid;
 }
 
 /* button:focus {
