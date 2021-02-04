@@ -31,7 +31,9 @@ img {
 
 div>p:first-child {
     display: inline;
+
 }
+
 
 div img {
     background: black;
@@ -73,9 +75,17 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
-    padding-top: 20%;
+    padding-top: 17%;
     box-sizing: border-box;
 }
+
+#container-de-descricao > p{
+    width: 17%;
+    color: yellow;
+    display: block;
+    margin: auto;
+}
+
 
 #container-de-descricao>ol {
     padding: 15px 0px;
@@ -135,3 +145,4 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
