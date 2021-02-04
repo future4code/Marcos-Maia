@@ -22,9 +22,9 @@ input {
     width: 500px;
 }
 
-button:focus {
+/* button:focus {
     color: white;
-}
+} */
 
 img {
     width: 100px;
@@ -33,6 +33,17 @@ img {
 div>p:first-child {
     display: inline;
 
+}
+
+a>:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+    background-color:#c44f00;
+}
+button:active{
+    color: white;
 }
 
 .botao-amarelo {
@@ -133,11 +144,6 @@ td button {
     vertical-align:middle
 }
 
-/* body > div.container-do-search > div{
-    display: inline-block;
-
-} */
-
 .icone {
     margin-top: 20px;
 
@@ -161,7 +167,10 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
-
+#back-button:active {
+    color: white;
+    
+}
 .produtos {
     width: 70px;
 }
