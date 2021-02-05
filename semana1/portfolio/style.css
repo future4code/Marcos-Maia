@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #B9DEDF;
+
+}
+.colors {
+    color: #C3B2B4;
+    color: #312E41;
+    color: #65A1A0;
+    color: #8BC4C1;
+    color: #AAD4DA;
+    color: #B9DEDF;
+}
+.cor1{ color: #C3B2B4; }
+.cor2{ color: #312E41; }
+.cor3{ color: #65A1A0; }
+.cor4{ color: #8BC4C1; }
+.cor5{ color: #AAD4DA; }
+.cor6{ color: #B9DEDF; }
+.bcor1{ background-color: #C3B2B4; }
+.bcor2{ background-color: #312E41; }
+.bcor3{ background-color: #65A1A0; }
+.bcor4{ background-color: #8BC4C1; }
+.bcor5{ background-color: #AAD4DA; }
+.bcor6{ background-color: #B9DEDF; }
+
+nav {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 20px
+}
+
+nav a {
+    padding: 0 40px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+header{
+    display: inline-block;
+}
+
+header img {
+    /* width: 40%; */
+    /* height: 70%; */
+    /* border-radius: 80%; */
+
+}
+
+.header-img {
+    display: inline-block;
+    background: url(./img/eupintura.PNG) 50% 50% no-repeat;
+    width: 335px;
+    height: 340px;
+    border-radius: 50%;
+    border: #65A1A0 5px solid;
+    object-fit:cover;
+    margin: 40px;
+    z-index: 1;
+    position: absolute;
+}
+
+
+
+.header-fundo{
+    background-color: #65A1A0;
+    position:fixed;
+    /* z-index: 0; */
+    width: 100%;
+    right: 0;
+    top: 8%;
+    padding: 20% 0 0 0;
+    border: #65A1A0 5px solid;
+}
+.titulo{
+    font-size: 6em;
+    /* background-color: yellow; */
+    position:absolute;
+    float: right;
+    margin: 80px 0 0 440px;
+    vertical-align: middle;
+}
