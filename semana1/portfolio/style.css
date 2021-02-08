@@ -4,86 +4,93 @@
     text-decoration: none;
     border: 0;
     font-family: 'Roboto', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
 }
-body{
+a { color: #C3B2B4; }
+a:hover { color: bisque; }
+
+/* TOPO DO SITE */
+.container-menu {float: left; width: 100%; background-color: #312E41; }
+.container-description{ width: 100%; float: left;  background-color: #65A1A0;  }
+.container-header {  }
+.container-menu > div { background-color: #312E41; padding: 0 120px; width: 1200px; overflow: hidden; margin: 0 auto;}
+.content-menu { text-align: right; position: relative; width: 1200px; background-color: #65A1A0; margin: 0 auto;}
+
+/* MENU */
+.main-menu { }
+.main-menu ul { float: right;}
+.main-menu ul li { margin-left: 2px; float: left; padding: 20px 15px; /* background-color: green ; */}
+.main-menu ul li a {}
+
+/* .container-description img { width: 200px; } */
+
+.photo-marcos { position: absolute; left: 8%; bottom: -50px; width: 250px; height: 250px; background-color: orange; background-image: url(./img/eupintura.PNG) ; 
+background-repeat: no-repeat; background-position: center; background-size: 110%;
+border-radius: 80px; border: #65A1A0 8px solid;
+}
+/* img { border-radius: 100%; } */
+
+.content-description { width: ; padding: 30px 0; position: relative; right: 10%; padding-left: 50%;   }
+
+.section-softskill  { width: 100%; float: left; margin: 0 auto; padding-top: 50px; padding-bottom: 40px;} 
+.section-softskill .content-menu > article  { 
+    float: left; 
+    width: 380px; 
     background-color: #B9DEDF;
-
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 40px 20px;
+} 
+.section-softskill .content-menu > article > p {
+    padding-top: 20px;
 }
-.colors {
-    color: #C3B2B4;
-    color: #312E41;
-    color: #65A1A0;
-    color: #8BC4C1;
-    color: #AAD4DA;
-    color: #B9DEDF;
-}
-.cor1{ color: #C3B2B4; }
-.cor2{ color: #312E41; }
-.cor3{ color: #65A1A0; }
-.cor4{ color: #8BC4C1; }
-.cor5{ color: #AAD4DA; }
-.cor6{ color: #B9DEDF; }
-.bcor1{ background-color: #C3B2B4; }
-.bcor2{ background-color: #312E41; }
-.bcor3{ background-color: #65A1A0; }
-.bcor4{ background-color: #8BC4C1; }
-.bcor5{ background-color: #AAD4DA; }
-.bcor6{ background-color: #B9DEDF; }
 
-nav {
+/* .content-title { text-align: right; position: relative; width: 1200px; margin: 0 auto;} */
+.section-title { padding: 15px ; background-color: white; color: #65A1A0;}
+
+.section-education  { width: 100%; float: left; margin: 0 auto; padding-bottom: 40px;} 
+.section-education .content-menu > article  { 
+    float: left; 
+    width: 380px; 
+    background-color: #B9DEDF;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 40px 20px;
+} 
+
+.section-education .content-menu > article > p {
+    padding-top: 20px;
+}
+
+div.content-description > h1 {     #312E41; }
+article > h2 {     color: #312E41; }
+
+
+
+.rodape {
+    position:fixed;
+    bottom: 0;
     display: block;
     width: 100%;
-    margin: auto;
-    padding: 20px
-}
-
-nav a {
-    padding: 0 40px;
+    background-color:#312E41;
+    text-align: center;
+    background-position: center center;
     box-sizing: border-box;
-    margin: auto;
+    height: 60px;
 }
-
-header{
-    display: inline-block;
-}
-
-header img {
-    /* width: 40%; */
-    /* height: 70%; */
-    /* border-radius: 80%; */
-
-}
-
-.header-img {
-    display: inline-block;
-    background: url(./img/eupintura.PNG) 50% 50% no-repeat;
-    width: 335px;
-    height: 340px;
-    border-radius: 50%;
-    border: #65A1A0 5px solid;
-    object-fit:cover;
-    margin: 40px;
-    z-index: 1;
-    position: absolute;
-}
-
-
-
-.header-fundo{
-    background-color: #65A1A0;
-    position:fixed;
-    /* z-index: 0; */
-    width: 100%;
-    right: 0;
-    top: 8%;
-    padding: 20% 0 0 0;
-    border: #65A1A0 5px solid;
-}
-.titulo{
-    font-size: 6em;
-    /* background-color: yellow; */
-    position:absolute;
+.icon {
+    width: 25px;
+    margin: 18px 170px 0 50px;
+    filter: invert(100%);
     float: right;
-    margin: 80px 0 0 440px;
-    vertical-align: middle;
+    display: inline;
+}
+
+.msg {
+    padding: 18px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #C3B2B4;
+    display: inline;
 }
