@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+   padding: 0;
+   text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   list-style: none;
+   box-sizing: border-box;
+}
+
+
+.main-container {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.assinatura {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+footer{
+    height: 50px;
+    background-color: blueviolet;
+    line-height: 50px;
+    text-align: center;
+}
+
+p {
+    padding: 0 10px;
+}
+
+.logo {
+    color: antiquewhite;
+    font-size: large;
+    font-weight: bold;
+}
+
+input {
+    border: 400px none white ;
+    border-radius: 300px;
+    background-color:gainsboro;
+}
