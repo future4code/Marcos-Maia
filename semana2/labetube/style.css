@@ -57,21 +57,28 @@ input {
 
 main{
     height: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content:center;
     align-items: center;
+    align-content: center;
     /* flex-wrap: wrap; */
 }
 
 .videos {
+
     display: flex;
-    align-self: center;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
-    width: 100%;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center; /*centralizou horizontalmente os card-vídeos*/
+    height: 90%;
+    width: 90%;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -83,9 +90,12 @@ main{
 .card-video {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
     box-shadow: 2px 2px 5px darkgrey;
     width: 200px;
     height: 100px;
