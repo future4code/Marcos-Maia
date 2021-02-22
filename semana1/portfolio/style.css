@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+}
+a { color: #C3B2B4; }
+a:hover { color: bisque; }
+
+/* TOPO DO SITE */
+.container-menu {float: left; width: 100%; background-color: #312E41; }
+.container-description{ width: 100%; float: left;  background-color: #65A1A0;  }
+.container-header {  }
+.container-menu > div { background-color: #312E41; padding: 0 120px; width: 1200px; overflow: hidden; margin: 0 auto;}
+.content-menu { text-align: right; position: relative; width: 1200px; background-color: #65A1A0; margin: 0 auto;}
+
+/* MENU */
+.main-menu { }
+.main-menu ul { float: right;}
+.main-menu ul li { margin-left: 2px; float: left; padding: 20px 15px; /* background-color: green ; */}
+.main-menu ul li a {}
+
+/* .container-description img { width: 200px; } */
+
+.photo-marcos { position: absolute; left: 8%; bottom: -50px; width: 250px; height: 250px; background-color: orange; background-image: url(./img/eupintura.PNG) ; 
+background-repeat: no-repeat; background-position: center; background-size: 110%;
+border-radius: 80px; border: #65A1A0 8px solid;
+}
+/* img { border-radius: 100%; } */
+
+.content-description { width: ; padding: 30px 0; position: relative; right: 10%; padding-left: 50%;   }
+
+.section-softskill  { width: 100%; float: left; margin: 0 auto; padding-top: 50px; padding-bottom: 40px;} 
+.section-softskill .content-menu > article  { 
+    float: left; 
+    width: 380px; 
+    background-color: #B9DEDF;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 40px 20px;
+} 
+.section-softskill .content-menu > article > p {
+    padding-top: 20px;
+}
+
+/* .content-title { text-align: right; position: relative; width: 1200px; margin: 0 auto;} */
+.section-title { padding: 15px ; background-color: white; color: #65A1A0;}
+
+.section-education  { width: 100%; float: left; margin: 0 auto; padding-bottom: 40px;} 
+.section-education .content-menu > article  { 
+    float: left; 
+    width: 380px; 
+    background-color: #B9DEDF;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 40px 20px;
+} 
+
+.section-education .content-menu > article > p {
+    padding-top: 20px;
+}
+
+div.content-description > h1 {     #312E41; }
+article > h2 {     color: #312E41; }
+
+
+
+.rodape {
+    position:fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    background-color:#312E41;
+    text-align: center;
+    background-position: center center;
+    box-sizing: border-box;
+    height: 60px;
+}
+.icon {
+    width: 25px;
+    margin: 18px 170px 0 50px;
+    filter: invert(100%);
+    float: right;
+    display: inline;
+}
+
+.msg {
+    padding: 18px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #C3B2B4;
+    display: inline;
+}
