@@ -1,5 +1,7 @@
 
 
+//**Exercícios de interpretação de código**
+
 //EXERCÍCIO 1
 /*
 O código deste exercício recebe um dado do usuário pelo prompt e armazena na const respostaDoUsuario
@@ -31,3 +33,56 @@ que foi declarada neste mesmo escopo.
 
 
 */
+
+//**Exercícios de escrita de código**
+
+//4.
+let userAge = Number(prompt('Sua idade'))
+
+if(userAge >= 18){
+    console.log('Você pode dirigir')
+} else {
+    console.log('você não pode dirigir')
+}
+
+//5.
+let dayTurn = prompt('Em que turno você estuda. Digite: M (matutino) ou V (Vespertino) ou N (Noturno)')
+
+if(dayTurn === 'm'){
+    console.log('Bom dia!')
+} else if (dayTurn === 'v') {
+    console.log('Boa tarde!')
+} else if (dayTurn === 'n') {
+    console.log('Boa noite!')
+} else {
+    console.log('digite M, V ou N')
+}
+
+//6.
+let dayTurn2 = prompt('2: Em que turno você estuda. Digite: M (matutino) ou V (Vespertino) ou N (Noturno)')
+
+switch(dayTurn2){
+    case 'm':
+        console.log('Bom dia!')
+        break
+    case 'v':
+        console.log('Boa tarde!')
+        break
+    case 'n':
+        console.log('Boa noite!')
+        break
+    default:
+        console.log('digite M, V ou N')
+}
+
+//7.
+let movieGenre = prompt('Qual gênero do filme vc quer? ')
+let ticketPrice = Number(prompt('Qual o preço do ingresso?'))
+
+if(movieGenre === 'fantasia' ){
+    if(ticketPrice < 15) {
+        console.log('Bom filme')
+    } else { console.log('muito caro')}
+} else {
+    console.log('Escolha outro filme')
+}
