@@ -1,27 +1,11 @@
-/* PARA LEMBRAR DA ESTRUTURA 
-<body>
-    <section id="formulario">
-        <label for="titulo-post">Título:</label>
-        <input type="text" id="titulo-post">
 
-        <label for="autor-post">Autor:</label>
-        <input type="text" id="autor-post">
-
-        <label for="conteudo-post">Conteúdo:</label>
-        <textarea id="conteudo-post" cols="30" rows="10"></textarea>
-        
-        <button>Criar Post</button>
-    </section>
-
-    <section id="container-de-posts">
-        
-    </section>
-</body>
-*/
-
+const form = document.querySelectorAll('input')
 const title = document.querySelector('#titulo-post')
 const author = document.querySelector('#autor-post')
 const content = document.querySelector('#conteudo-post')
+const button = document.querySelector('#formulario > button')
+
+const postsContainer = document.querySelector('#container-de-posts')
 
 let post = {
     title: 'Titulo do Post',
@@ -29,11 +13,27 @@ let post = {
     content: 'conteúdo'
 }
 
-let newPost ={
-    ...post
-
-}
-console.log(post)
-
 let posts = []
 
+button.addEventListener('click', event =>{
+    let newPost ={
+        ...post,
+        title: title.value,
+        author: author.value,
+        content: content.value
+    }
+    
+    posts.push(newPost) 
+    
+    postsContainer.innerHTML += 
+    `<div class="postsNovos">
+    <p>${title.value}</p>
+    <p>${author.value}</p>
+    <p>${content.value}</p>
+    </div>` 
+
+    for(item of form) {
+        item.value = ''
+    }
+    content.value = ''
+})
