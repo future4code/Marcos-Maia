@@ -99,17 +99,6 @@ function filtrarDespesas(){
         return false
     })
 
-    // SUGESTÃO DE SOLUÇÃO::: 
-/*
-    let despesasFiltradas = arrDespesas.filter((item)=>{
-        if (tipoFiltro === "todos"){
-            return item.valor >= valorMin && item.valor <= valorMax 
-        } else {
-            return item.valor >= valorMin && item.valor <= valorMax && item.tipo === tipoFiltro
-        }
-    })
-*/
-
     imprimirDespesas(despesasFiltradas)
 }
 
