@@ -6,41 +6,115 @@ function inverteArray(array) {
 }
 
 //Exercício 2
-
+array = [1, 2, 3, 4, 5, 6]
 function retornaNumerosParesElevadosADois (array) {
    // implemente sua lógica aqui
+
+   //ESTA DEU CERTO. CRIAR O NOVO ARRAY E RETORNÁ-LO
+   novoArray =[]
+   array.forEach(element => {
+      if(element % 2 === 0){
+         novoArray.push(element ** 2)// console.log(element * element)
+      }
+      return false
+   });
+   return novoArray
+
+   // const paresAoQuadrados = array.filter((element) => {
+   //    if(element % 2 === 0){
+   //       return element * 10
+   //    }
+   //    return
+   // })
+   // console.log(paresAoQuadrados)
+
+   // let paresAoQuadrados = array.filter( element => {
+   //    if(element % 2 === 0){
+   //       return element * element
+   //    }
+   // })
+   // return paresAoQuadrados
+   // // console.log(paresAoQuadrados)
 }
 
-//Exercício 3
 
+// if(element % 2 === 0) {
+//    return element**
+// }
+
+
+//Exercício 3
 function retornaNumerosPares (array) {
    // implemente sua lógica aqui
+
+   //DEU CERTO COM FOREACH
+   // novoArray = []
+   // array.forEach( item => {
+   //    if(item % 2 === 0){
+   //       novoArray.push(item)
+   //    }
+   // })
+   // return novoArray
+
+   let evenArray = array.filter( item =>{
+      if(item % 2 === 0) {
+         return true
+      }
+      return false 
+   })
+   return evenArray
 }
 
 //Exercício 4
-
+array = [1, 2, 3, 4, 5, 6]
 function retornaMaiorNumero(array) {
    // implemente sua lógica aqui
+
+//DEU CERTO. USANDO O MÉTODO MATH.MAX E spread. ou seja...
+// CADA ITEM DO ARRAY, COMO MÉTODO DO MATH.MAX.
+   let maior = Math.max(...array)
+   return maior
+
+
 }
 
 //Exercício 5
 
 function retornaQuantidadeElementos (array) {
    // implemente sua lógica aqui
+   return array.length
 }
 
 //Exercício 6
 
 function retornaExpressoesBooleanas() {
    // implemente sua lógica aqui
+      const respostas = [false, false,  true,  true, true]
+      return respostas
 }
 
 //Exercício 7
 
 function retornaNNumerosPares(n) {
    // implemente sua lógica aqui
-}
+   let array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+   let arrayFiltrado = []
+   let novoArrayPares = array.filter( item => {
+      if(item % 2 === 0){
+         return true
+      }
+      return false      
+   })
 
+   for(i = 0; i < n; i++){
+      arrayFiltrado.push(novoArrayPares[i])
+   }
+   return arrayFiltrado
+   // console.log(arrayFiltrado)
+   // console.log(novoArrayPares)
+
+}
+console.log(retornaNNumerosPares(5))
 // Exercício 8
 
 function checaTriangulo(a, b, c) {
@@ -141,26 +215,26 @@ const pessoas = [
 
 //Exercício 18, letra A
 
-function retornaPessoasAutorizadas(pessoas) {
+function retornaPessoasAutorizadas() {
    // implemente sua lógica aqui
 }
 
 
 // Exercício 18, letra B
 
-function retornaPessoasNaoAutorizadas(pessoas) {
+function retornaPessoasNaoAutorizadas() {
    // implemente sua lógica aqui
 }
 
 //Exercício 19
 
 const consultas = [
-  { nome: "João", genero: "masculino", cancelada: true, dataDaConsulta: "01/10/2019" },
-  { nome: "Pedro", genero: "masculino", cancelada: false, dataDaConsulta: "02/10/2019" },
-  { nome: "Paula", genero: "feminino", cancelada: true, dataDaConsulta: "03/11/2019" },
-  { nome: "Márcia", genero: "feminino", cancelada: false, dataDaConsulta: "04/11/2019" }
-  ]
-
+   { nome: "João", genero: "masculino", cancelada: false, dataDaConsulta: "01/10/2019" },
+   { nome: "Pedro", genero: "masculino", cancelada: true, dataDaConsulta: "02/10/2019" },
+   { nome: "Paula", genero: "feminino", cancelada: false, dataDaConsulta: "03/11/2019" },
+   { nome: "Márcia", genero: "feminino", cancelada: true, dataDaConsulta: "04/11/2019" }
+]
+ 
 function retornaEmailConsulta(consultas) {
   // implemente sua lógica aqui
 }
