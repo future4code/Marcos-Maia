@@ -17,8 +17,27 @@ class Post extends React.Component {
   }
 
   onClickCurtida = () => {
-    console.log('Curtiu!')
+    // console.log('Curtiu!')
+
+    if(this.state.numeroCurtidas === 0) {
+      this.setState({
+        curtido: !this.state.curtido,
+        numeroCurtidas: this.state.numeroCurtidas + 1,
+      })
+    }
+    if(this.state.numeroCurtidas === 1){
+      this.setState({
+        curtido: !this.state.curtido,
+        numeroCurtidas: this.state.numeroCurtidas - 1,
+      })
+      }
+    
+    // this.setState({
+    //   curtido: !this.state.curtido,
+    //   numeroCurtidas: this.state.numeroCurtidas + 1,
+    // })
   }
+
 
   onClickComentario = () => {
     this.setState({
@@ -69,7 +88,8 @@ class Post extends React.Component {
           valorContador={this.state.numeroComentarios}
         />
       </div>
-      {componenteComentario}
+      {/* componente que exibe a seçao comentário */ }
+      {componenteComentario}   
     </div>
   }
 }
