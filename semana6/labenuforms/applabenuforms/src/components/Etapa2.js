@@ -3,7 +3,7 @@ import React from "react";
 class Etapa2 extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="etapa">
         Etapa 2 - INFORMAÇÕES DO ENSINO SUPERIOR
         Qual o curso?
         <input

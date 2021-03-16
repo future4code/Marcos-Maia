@@ -4,7 +4,7 @@ class Final extends React.Component {
 
   render(){
     return (
-      <div className="App">
+      <div className="etapa">
         O FORMULÁRIO ACABOU 
         Muito obrigado por participar! Entraremos em contato!
       </div>

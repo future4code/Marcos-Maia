@@ -4,7 +4,7 @@ class Etapa3 extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="etapa">
         Etapa3 - INFORMAÇÕES GERAIS DE ENSINO
         Por que você não terminou um curso de ?
         <input

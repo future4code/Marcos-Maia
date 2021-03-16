@@ -1,18 +1,20 @@
 import React from "react";
 
+
 class Etapa1 extends React.Component {
   render() {
     return (
-      <div className="App">
-        Etapa 1 - DADOS GERAIS
-        Qual o seu nome?
+      <div className="etapa">
+        <p>Etapa 1 - DADOS GERAIS</p>
+
+        <p>Qual o seu nome?</p>
         <input
         // className='a'
         // value={this.state.valorInputNome}
         // onChange={this.onChangeInputNome}
         // placeholder={'Nome'}
         />
-        Qual sua idade?
+        <p>Qual sua idade?</p>
         <input
         // className="b"
         // value={this.state.valorInputTexto}
@@ -20,14 +22,14 @@ class Etapa1 extends React.Component {
         // placeholder={'Mensagem'}
         // onKeyDown={this.onKeyDown}
         />
-        Qual seu email?
+        <p>Qual seu email?</p>
         <input
         // className='a'
         // value={this.state.valorInputNome}
         // onChange={this.onChangeInputNome}
         // placeholder={'Nome'}
         />
-        Qual a sua escolaridade?
+        <p> Qual a sua escolaridade?</p>
         <select>
           <option>Ensino fundamental completo</option>
           <option>Ensino médio completo</option>
