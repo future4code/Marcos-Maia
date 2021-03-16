@@ -3,11 +3,15 @@ import './App.css';
 import Post from './components/Post/Post';
 import styled from 'styled-components'
 
-// const FormStyle = styled`
-//   input, button {
-//     margin: 10px 0;
-//   }
+// const Button = styled`
+//   margin: 1px
 // `
+
+const FormStyle = styled.div`
+input{
+  margin: 5px 3px;
+}
+`
 
 class App extends React.Component {
 
@@ -60,11 +64,11 @@ class App extends React.Component {
       return(
         <div className={'app-container'}> 
         {/* <Estilos> */}
-          {/* <FormStyle> */}
+          <FormStyle>
             <input
               value={this.state.valorInputNomeUsuario}
               onChange={this.onChangeInputNomeUsuario}
-              placeholder={'Nome'}
+              placeholder={'Nome User'}
             /> 
             {/* </FormStyle> */}
             <input 
@@ -77,8 +81,8 @@ class App extends React.Component {
               onChange={this.onChangeInputFotoPost}
               placeholder={'Foto do Post'}
             />
-            {/* </FormStyle> */}
             <button onClick={this.adicionarPost}>Postar</button>
+            </FormStyle>
 
           {this.state.posts.map((post) => {
               return <Post 
