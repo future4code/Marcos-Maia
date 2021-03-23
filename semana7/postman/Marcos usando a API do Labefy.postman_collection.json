@@ -1,0 +1,1558 @@
+{
+	"info": {
+		"_postman_id": "47a11398-344d-492b-ac6c-1646942f424b",
+		"name": "New Collection mm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Nova PLaylist",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "marcos-maia-cruz",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"folk\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Nova PLaylist",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"indie\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtmlv5vcwnl7"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "5598d4354548a9216730f68a7e84f14b;o=1"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:04:58 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "Nova PLaylist",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"new-forro\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtmlj9axeaqf"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "7b78a82f04b774712f7254fee05abd94;o=1"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 00:59:39 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "Nova PLaylist",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"folk\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtml38zluzkn"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "477f60ba009238cfdbb6b5633ab26a47;o=1"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:07:02 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "Nova PLaylist",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "\"marcos-maia-cruz\"",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"new-forro\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtmld4od389o"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "b65236e39d644e10b43765a88958c3c1"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 00:57:01 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "get All Playlists",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "marcos-maia-cruz",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists?Authorization=marcos-maia-cruz",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "marcos-maia-cruz"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get All Playlists",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Sun\", \r\n    \"artist\": \"Two Door Cinema Club\",\r\n    \"url\": \"https://www.youtube.com/watch?v=sKyK1Mme9Sc\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists?playlistId=36d756cf-efe1-4282-8724-0adc3863f630",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists"
+							],
+							"query": [
+								{
+									"key": "playlistId",
+									"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"dc-yHmEfmNJf+s1mRDshQgKf83sIhU\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtmlqch1fud8"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "acbc34cfb087e1c59ebef9a08c17a3d4"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:07:21 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "220"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"quantity\": 3,\n        \"list\": [\n            {\n                \"id\": \"26144847-94d2-4719-9c20-f22cd7603920\",\n                \"name\": \"new-forro\"\n            },\n            {\n                \"id\": \"36d756cf-efe1-4282-8724-0adc3863f630\",\n                \"name\": \"indie\"\n            },\n            {\n                \"id\": \"3c8ef486-8706-4c29-80d0-ffb08df5ab0d\",\n                \"name\": \"folk\"\n            }\n        ]\n    }\n}"
+				},
+				{
+					"name": "get All Playlists",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists?Authorization=marcos-maia-cruz",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists"
+							],
+							"query": [
+								{
+									"key": "Authorization",
+									"value": "marcos-maia-cruz"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"63-RM3ThMPTZz7TAyn/CEvDQ7KABS0\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtml5mj6rnk3"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "c95e0febe5030b3ca66d0bc271d5748a"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:03:37 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "99"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"quantity\": 1,\n        \"list\": [\n            {\n                \"id\": \"26144847-94d2-4719-9c20-f22cd7603920\",\n                \"name\": \"new-forro\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Inclui Nova Música",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "marcos-maia-cruz",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Little Talks\", \r\n    \"artist\": \"Of Monsters And Men\",\r\n    \"url\": \"https://www.youtube.com/watch?v=ghb6eDopW8I\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks?playlistId=3c8ef486-8706-4c29-80d0-ffb08df5ab0d",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists",
+						":playlistId",
+						"tracks"
+					],
+					"query": [
+						{
+							"key": "playlistId",
+							"value": "3c8ef486-8706-4c29-80d0-ffb08df5ab0d"
+						}
+					],
+					"variable": [
+						{
+							"key": "playlistId",
+							"value": "3c8ef486-8706-4c29-80d0-ffb08df5ab0d"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Inclui Nova Música",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Little Talks\", \r\n    \"artist\": \"Of Monsters And Men\",\r\n    \"url\": \"https://www.youtube.com/watch?v=ghb6eDopW8I\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks?playlistId=36d756cf-efe1-4282-8724-0adc3863f630",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists",
+								":playlistId",
+								"tracks"
+							],
+							"query": [
+								{
+									"key": "playlistId",
+									"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+								}
+							],
+							"variable": [
+								{
+									"key": "playlistId",
+									"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtmlv0vf8zdx"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "83a71370b6646881b05f5431b915a793;o=1"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:27:53 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Inclui Nova Música Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "marcos-maia-cruz",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Sun\", \r\n    \"artist\": \"Two Door Cinema Club\",\r\n    \"url\": \"https://www.youtube.com/watch?v=sKyK1Mme9Sc\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks?playlistId=36d756cf-efe1-4282-8724-0adc3863f630",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists",
+						":playlistId",
+						"tracks"
+					],
+					"query": [
+						{
+							"key": "playlistId",
+							"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+						}
+					],
+					"variable": [
+						{
+							"key": "playlistId",
+							"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Inclui Nova Música Copy",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Sun\", \r\n    \"artist\": \"Two Door Cinema Club\",\r\n    \"url\": \"https://www.youtube.com/watch?v=sKyK1Mme9Sc\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks?playlistId=36d756cf-efe1-4282-8724-0adc3863f630",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists",
+								":playlistId",
+								"tracks"
+							],
+							"query": [
+								{
+									"key": "playlistId",
+									"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+								}
+							],
+							"variable": [
+								{
+									"key": "playlistId",
+									"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtmlybotfnoe"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "2dabe65331fe431d3838f846d0da3b86;o=1"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:28:14 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Inclui Nova Música Calcinha",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "marcos-maia-cruz",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Mágica\", \r\n    \"artist\": \"Calcinha Preta\",\r\n    \"url\": \"https://www.youtube.com/watch?v=vwsZ3c9hPEg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks?playlistId=26144847-94d2-4719-9c20-f22cd7603920",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists",
+						":playlistId",
+						"tracks"
+					],
+					"query": [
+						{
+							"key": "playlistId",
+							"value": "26144847-94d2-4719-9c20-f22cd7603920"
+						}
+					],
+					"variable": [
+						{
+							"key": "playlistId",
+							"value": "26144847-94d2-4719-9c20-f22cd7603920"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Inclui Nova Música Copy",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Sun\", \r\n    \"artist\": \"Two Door Cinema Club\",\r\n    \"url\": \"https://www.youtube.com/watch?v=sKyK1Mme9Sc\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks?playlistId=36d756cf-efe1-4282-8724-0adc3863f630",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists",
+								":playlistId",
+								"tracks"
+							],
+							"query": [
+								{
+									"key": "playlistId",
+									"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+								}
+							],
+							"variable": [
+								{
+									"key": "playlistId",
+									"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtmlybotfnoe"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "2dabe65331fe431d3838f846d0da3b86;o=1"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:28:14 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Verificar todas as playlists",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "marcos-maia-cruz",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Verificar todas as playlists",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"dc-yHmEfmNJf+s1mRDshQgKf83sIhU\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtmlpeor62tn"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "7ee0eefb74d0d00f1b8f4b3b48da8642"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:23:48 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "220"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"quantity\": 3,\n        \"list\": [\n            {\n                \"id\": \"26144847-94d2-4719-9c20-f22cd7603920\",\n                \"name\": \"new-forro\"\n            },\n            {\n                \"id\": \"36d756cf-efe1-4282-8724-0adc3863f630\",\n                \"name\": \"indie\"\n            },\n            {\n                \"id\": \"3c8ef486-8706-4c29-80d0-ffb08df5ab0d\",\n                \"name\": \"folk\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Pegar as tracks",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "marcos-maia-cruz",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists",
+						":playlistId",
+						"tracks"
+					],
+					"variable": [
+						{
+							"key": "playlistId",
+							"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Pegar as tracks",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists",
+								":playlistId",
+								"tracks"
+							],
+							"variable": [
+								{
+									"key": "playlistId",
+									"value": "3c8ef486-8706-4c29-80d0-ffb08df5ab0d"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2ff-KQ6WKIstvK/sDxoQc9wPOpKykoA\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtmlmnj6o7i4"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "88e38b96fa730b8443e636125cd4559e"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:29:55 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "767"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"quantity\": 5,\n        \"tracks\": [\n            {\n                \"id\": \"b7921c9f-1008-47dd-babe-1982f2491993\",\n                \"name\": \"Sun\",\n                \"artist\": \"Two Door Cinema Club\",\n                \"url\": \"https://www.youtube.com/watch?v=sKyK1Mme9Sc\"\n            },\n            {\n                \"id\": \"b7ac3bfb-61ba-454d-889a-ad14524dd435\",\n                \"name\": \"Sun\",\n                \"artist\": \"Two Door Cinema Club\",\n                \"url\": \"https://www.youtube.com/watch?v=sKyK1Mme9Sc\"\n            },\n            {\n                \"id\": \"b83fdcc1-dbca-4751-86ce-a326c6a051b9\",\n                \"name\": \"Little Talks\",\n                \"artist\": \"Of Monsters And Men\",\n                \"url\": \"https://www.youtube.com/watch?v=ghb6eDopW8I\"\n            },\n            {\n                \"id\": \"d54a73f7-fd97-42cc-aeb4-9c7ece144965\",\n                \"name\": \"Little Talks\",\n                \"artist\": \"Of Monsters And Men\",\n                \"url\": \"https://www.youtube.com/watch?v=ghb6eDopW8I\"\n            },\n            {\n                \"id\": \"1a1b7357-7e83-47e3-98fa-ba2ad91f55c0\",\n                \"name\": \"Sun\",\n                \"artist\": \"Two Door Cinema Club\",\n                \"url\": \"https://www.youtube.com/watch?v=sKyK1Mme9Sc\"\n            }\n        ]\n    }\n}"
+				},
+				{
+					"name": "Pegar as tracks",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists",
+								":playlistId",
+								"tracks"
+							],
+							"variable": [
+								{
+									"key": "playlistId",
+									"value": "36d756cf-efe1-4282-8724-0adc3863f630"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2ff-KQ6WKIstvK/sDxoQc9wPOpKykoA\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtmlhci320kc"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "e902ab0140072c8722478947f4d72233;o=1"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:30:44 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "767"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"quantity\": 5,\n        \"tracks\": [\n            {\n                \"id\": \"b7921c9f-1008-47dd-babe-1982f2491993\",\n                \"name\": \"Sun\",\n                \"artist\": \"Two Door Cinema Club\",\n                \"url\": \"https://www.youtube.com/watch?v=sKyK1Mme9Sc\"\n            },\n            {\n                \"id\": \"b7ac3bfb-61ba-454d-889a-ad14524dd435\",\n                \"name\": \"Sun\",\n                \"artist\": \"Two Door Cinema Club\",\n                \"url\": \"https://www.youtube.com/watch?v=sKyK1Mme9Sc\"\n            },\n            {\n                \"id\": \"b83fdcc1-dbca-4751-86ce-a326c6a051b9\",\n                \"name\": \"Little Talks\",\n                \"artist\": \"Of Monsters And Men\",\n                \"url\": \"https://www.youtube.com/watch?v=ghb6eDopW8I\"\n            },\n            {\n                \"id\": \"d54a73f7-fd97-42cc-aeb4-9c7ece144965\",\n                \"name\": \"Little Talks\",\n                \"artist\": \"Of Monsters And Men\",\n                \"url\": \"https://www.youtube.com/watch?v=ghb6eDopW8I\"\n            },\n            {\n                \"id\": \"1a1b7357-7e83-47e3-98fa-ba2ad91f55c0\",\n                \"name\": \"Sun\",\n                \"artist\": \"Two Door Cinema Club\",\n                \"url\": \"https://www.youtube.com/watch?v=sKyK1Mme9Sc\"\n            }\n        ]\n    }\n}"
+				},
+				{
+					"name": "Pegar as tracks",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists",
+								":playlistId",
+								"tracks"
+							],
+							"variable": [
+								{
+									"key": "playlistId",
+									"value": "26144847-94d2-4719-9c20-f22cd7603920"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"b1-goywdVhJYgLTa0sabLfg7HkIzBY\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtml53oq6bu8"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "617d43d61293a26b6ca8baad4eb2eace"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:32:59 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "177"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"quantity\": 1,\n        \"tracks\": [\n            {\n                \"id\": \"8c5d9649-782c-4b7f-ab07-39ba26a0c11d\",\n                \"name\": \"Mágica\",\n                \"artist\": \"Calcinha Preta\",\n                \"url\": \"https://www.youtube.com/watch?v=vwsZ3c9hPEg\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "marcos-maia-cruz",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/search?name=indie",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "indie"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "marcos-maia-cruz",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/search?name=indie",
+							"protocol": "https",
+							"host": [
+								"us-central1-labenu-apis",
+								"cloudfunctions",
+								"net"
+							],
+							"path": [
+								"labefy",
+								"playlists",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "indie"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"63-U9YIx53v2bSNFLEGz3mqZaSSV8k\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "rtml7thm7c4w"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "be9df1673d2c7c1afce4b3fbd13cfd15"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Mar 2021 01:36:29 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Content-Length",
+							"value": "99"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"quantity\": 1,\n        \"playlist\": [\n            {\n                \"id\": \"36d756cf-efe1-4282-8724-0adc3863f630\",\n                \"name\": \"indie\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
