@@ -1,0 +1,61 @@
+
+
+.card-container {
+    border: 2px solid brown; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+    margin: 10px ;
+    /* flex-wrap: wrap; */
+    width: 180px;
+    /* max-width: 100px; */
+    /* min-width: 200px; */
+    /* margin: 30px; */
+    /* height: 300px; */
+    /* background-color: #efefef; */
+    padding: 10px;
+}
+
+.card-botao > button {
+    /* margin-left: 5px; */
+    margin-bottom: 2px;
+    /* background-color:#eee; */
+    /* border: 1px solid rgb(84, 111, 111);  */
+    /* border-radius: 10px; */
+    outline: none;
+    /* padding: 5px 12px; */
+  
+    }
+
+
+.card-foto {
+    /* margin-top: 20px; */
+    /* width: 100%; */
+    /* min-width: 100px; */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    /* width: 200px; */
+    height: 130px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.card-texto {
+    padding: 20px;
+
+}
+
+
+  
+
