@@ -1,22 +1,23 @@
 import React from 'react'
-import './Card.css'
+import './CardMini.css'
 
-class Card extends React.Component {
+
+class CardMini extends React.Component {
 
   render() {
 
-    return <div className='card-container'>
-              <div className='card-foto'>
-                  <img className='foto' src={this.props.cardFoto} alt='Imagem do Card'/>
+    return <div className='card2-container'>
+              <div className='card2-foto'>
+                  <img className='foto' src={this.props.cardFoto} alt={'Imagem do Card'}/>
               </div>
-              <div className='card-texto'>
-                <div className='card-dados'>
+              <div className='card2-texto'>
+                <div className='card2-dados'>
                   {/* {this.props.id} */}
                   <p>{this.props.cardNome}</p>
                   {/* <p>{this.props.cardPreco}</p> */}
                 </div>
                 
-                <div className='card-botao'>
+                <div className='card2-botao'>
                     <button onClick={this.props.funcao}> {this.props.textoBotao} </button>
                 </div>
 
@@ -26,4 +27,4 @@ class Card extends React.Component {
 
 }
 
-export default Card 
+export default CardMini 

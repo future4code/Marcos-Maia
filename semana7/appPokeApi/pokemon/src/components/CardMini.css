@@ -1,28 +1,28 @@
 
 
-.card-container {
-    border: 2px solid brown; 
+.card2-container {
+    border: 1px solid brown; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-items: center;
-    margin-bottom: 20px;
-    margin: 30px ;
+    margin-bottom: 15px;
+    margin: 10px ;
     /* flex-wrap: wrap; */
-    width: 180px;
+    width: 90px;
     /* max-width: 100px; */
     /* min-width: 200px; */
     /* margin: 30px; */
     /* height: 300px; */
     /* background-color: #efefef; */
-    padding-top: 20px;
-    border-radius: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
 }
 
-.card-botao > button {
+.card2-botao > button {
     /* margin-left: 5px; */
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     /* background-color:#eee; */
     /* border: 1px solid rgb(84, 111, 111);  */
     /* border-radius: 10px; */
@@ -37,18 +37,18 @@
     }
 
 
-.card-foto {
+.card2-foto {
     /* margin-top: 20px; */
     /* width: 100%; */
     /* min-width: 100px; */
-    height: 200px;
+    height: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
     /* border: 1px solid black; */
     /* width: 200px; */
-    height: 130px;
+    height: 60px;
     /* border: 1px solid blue; */
 }
 
@@ -61,8 +61,8 @@ img {
 
 }
 
-.card-texto {
-    padding: 20px;
+.card2-texto {
+    padding: 10px;
 
 }
 

@@ -5,29 +5,51 @@
 .app-container {
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: space-around;
   margin: 20px;
-      border: 2px solid blue; 
+  /* border: 2px solid blue;  */
 
 }
 
 .app-area-central {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   align-content: center;
-  align-content: left;
+  align-items: center;
   /* flex-grow: 2; */
   border: 1px solid black; 
   padding: 20px;
   /* padding-top: 0px; */
 
-  min-width: 140px;
-  height: 450px;
-  max-height: 450px;
+  min-width: 250px;
+  height: 600px;
+  max-height: 600px;
   width: 300px;
       border: 2px solid pink; 
 
 }
+
+.app-area-direita, .app-area-esquerda {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-content:flex-start;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  /* flex-grow: 2; */
+  border: 1px solid black; 
+  padding: 20px;
+  /* padding-top: 0px; */
+
+  min-width: 250px;
+  height: 600px;
+  max-height: 600px;
+  width: 300px;
+      border: 2px solid pink; 
+
+}
+
 
 
 
@@ -64,4 +86,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.signature {
+  position: absolute;
+  bottom: 0px;
+  background-color: #61dafb;
+  color: aliceblue;
+  right: 50px;
 }
