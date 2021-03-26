@@ -48,7 +48,7 @@
     box-sizing: border-box;
     /* border: 1px solid black; */
     /* width: 200px; */
-    height: 130px;
+    height: 185px;
     /* border: 1px solid blue; */
 }
 
@@ -63,6 +63,7 @@ img {
 
 .card-texto {
     padding: 20px;
+    text-align: center;
 
 }
 
