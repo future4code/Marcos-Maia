@@ -16,7 +16,7 @@ export default class CriarPlaylist extends React.Component {
     // funções de API
     onClickCreatePlaylist = (e) => {
         this.createPlaylist()
-        
+
     }
 
     createPlaylist = () => {
@@ -36,6 +36,8 @@ export default class CriarPlaylist extends React.Component {
             )
             .then((res) => {
                 this.setState({ inputValue: ''})
+                alert('Playlist criada com sucesso')
+
             })
             .catch((err) => {
                 console.log(err.response.data)
@@ -62,6 +64,7 @@ export default class CriarPlaylist extends React.Component {
                     placeholder={'Nome da playlist a incluir'}
                     // value={this.state.inputValue}
                     onChange={this.handleInputChange}
+                    value={this.state.inputValue}
                 />
                 <button onClick={this.onClickCreatePlaylist}> CRIAR </button>
 

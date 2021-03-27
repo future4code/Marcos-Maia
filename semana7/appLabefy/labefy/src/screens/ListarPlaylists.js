@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import Button from '../components/Button'
 
 export default class ListarPlaylists extends React.Component {
 
@@ -34,11 +35,39 @@ export default class ListarPlaylists extends React.Component {
 
     }
 
+    onClickDelete = (playlist) => {
+        console.log(playlist.id)
+        axios
+        .delete(
+            // 'https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId',
+            `https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/${playlist.id}`,
+            {
+                headers: {
+                    Authorization: 'marcos-maia'
+                }
+            }
+        )
+        .then((res) => {
+            alert('Playlist deletada com sucesso')
+            this.getApiData()
+            console.log(res)
+        })
+        .catch((err) => {
+            alert('Falhou')
+            console.log(err)
+        })
+    }
+
     render(){
 
         //funções de filtragem para enviar ao JSX (tal como o map)
         const playlistsToScreen = this.state.playlists.map((playlist) => (
-            <li key={playlist.id}>{playlist.name}</li>
+            <div className='list-item' key={playlist.id}>{playlist.name}
+            <Button
+                texto='DELETAR'
+                funcao={() => this.onClickDelete(playlist)}
+            />
+            </div>
         )) 
 
         return(
@@ -47,7 +76,7 @@ export default class ListarPlaylists extends React.Component {
             <h2>Esta é sua lista de playlists atualizada:</h2>
             {
                 this.state.playlists.length > 0 ? (
-                    <ul>{playlistsToScreen}</ul>
+                    <div className='list'>{playlistsToScreen}</div>
                 ) : (
                     <div>
                         <p>carregando playlists... </p>

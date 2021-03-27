@@ -179,3 +179,26 @@ header, footer {
   /* color: aliceblue;
   right: 50px; */
 }
+
+
+.list {
+  height: 500px;
+  display: flex;
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+  flex-flow: column wrap;
+  justify-content:flex-start;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.list-item {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  /* justify-items: flex-start; */
+  align-items:center;
+  margin: 0 15px;
+}
