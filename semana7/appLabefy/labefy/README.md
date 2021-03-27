@@ -1,3 +1,24 @@
+### LABEFY
+
+### O que funciona
+- As telas: criar e exibir lista de playlists
+- botão de mudança entre as telas.
+- Criação de PLaylist
+- Listagem de Playlist
+- Deletar Playlist
+- Input limpo após a criação da playlist
+
+### O que não funciona
+- ...
+
+### Link Surge 
+http://sick-transport.surge.sh/
+
+### Imagens
+Em breve
+![image](https://user-images.githubusercontent.com/30267119/112727527-9e639e00-8f01-11eb-9b61-a7edcbf4d0f4.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
