@@ -1,0 +1,71 @@
+
+
+.card2-container {
+    border: 1px solid brown; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 15px;
+    margin: 10px ;
+    /* flex-wrap: wrap; */
+    width: 90px;
+    /* max-width: 100px; */
+    /* min-width: 200px; */
+    /* margin: 30px; */
+    /* height: 300px; */
+    /* background-color: #efefef; */
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.card2-botao > button {
+    /* margin-left: 5px; */
+    margin-bottom: 1px;
+    /* background-color:#eee; */
+    /* border: 1px solid rgb(84, 111, 111);  */
+    /* border-radius: 10px; */
+    outline: none;
+    /* padding: 5px 12px; */
+    display: block;
+    margin: 0 auto;
+    /* align-self: center;
+    justify-self: center; */
+    text-align: center;
+  
+    }
+
+
+.card2-foto {
+    /* margin-top: 20px; */
+    /* width: 100%; */
+    /* min-width: 100px; */
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    /* width: 200px; */
+    height: 60px;
+    /* border: 1px solid blue; */
+}
+
+img {
+    /* width: 100%; */
+    height: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.card2-texto {
+    padding: 10px;
+
+}
+
+
+  
+
