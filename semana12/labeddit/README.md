@@ -1,5 +1,44 @@
 # Getting Started with Create React App
 
+# Projeto Labeddit
+
+https://github.com/future4code/Marcos-Maia/pull/46
+
+## Link do surge:
+http://xxx.surge.sh/
+
+## Desenvolvedor:
+- Marcos Maia  
+
+## Imagens: 
+![TelaPrincipal]()
+
+## Funcionalidades: 
+- Exibição de produtos 
+
+## Briefing do projeto:  
+
+```
+Implementar uma rede social funcional, com cadastro, login, posts, likes e comentários. ReferÊncia: reddit.com.
+Necessário 4 páginas.
+Página de login: 
+Página de cadastro:
+Página de Feed (Lista de Posts):
+Página de Post:
+
+Documentação da API: https://documenter.getpostman.com/view/7549981/TzRLkAfr
+## Documentação da API
+
+{
+"email": ["pedro.darvas@gmail.com](mailto:%22pedro.darvas@gmail.com)",
+"password": "qwerty",
+"username": "darvas"
+}
+````
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
