@@ -1,0 +1,11 @@
+{
+  "name": "exer3",
+  "version": "1.0.0",
+  "description": "Exercício 3 da aula 41",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Marcos Maia",
+  "license": "ISC"
+}
